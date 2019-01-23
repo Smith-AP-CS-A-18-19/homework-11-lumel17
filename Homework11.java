@@ -37,7 +37,7 @@ public class Homework11 {
 		int num = 0;
 		while (num < list.size()) {
 			if ((list.get(num) % n) == 0) {
-				list.remove(n);
+				list.remove(num);
 			} else {
 				num += 1;
 			}
